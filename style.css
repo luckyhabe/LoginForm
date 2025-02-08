@@ -1,27 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-#registration-form {
-    max-width: 500px;
-    margin: auto;
+  }
+  
+  #registration-form {
+    max-width: 600px;
+    margin: 40px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
- margin-bottom: 20px;
-}
-
-label {
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
     display: block;
     margin-bottom: 10px;
   }
   
   input[type="text"], input[type="email"], input[type="password"] {
-    width: 100%;
+    width: 97%;
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
@@ -40,5 +40,5 @@ label {
   }
   
   button[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #656c65;
   }

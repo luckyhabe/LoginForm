@@ -13,23 +13,27 @@
     </style>
 </head>
 <body>
-    <h1><u>Welcome, User!</u></h1>
+    <h1>Welcome</h1>
     <p><i>Please fill in your credentials</i></p>
     <form id="registration-form">
-        <h2>Login</h2>
+        <h2>Registration Form</h2>
         <div class="form-group">
-            <label for="username">Username</label>
-            <input type="text" placeholder="Username" name="username">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
         </div>
         <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" placeholder="Type password" id="password" name="password">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
         </div>
-        <div cass="form-group">
-            <label for="confirm-pasword">Confirm Password</label>
-            <input type="confirm-password" placeholder="Retype Password" id="confirm-password" name="confirm-password">
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password">
         </div>
         <button type="submit">Register</button>
-        </form>
+      </form>
 </body>
 </html>
